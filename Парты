@@ -1,0 +1,16 @@
+a = int(input())
+b = int(input())
+c = int(input())
+if a % 2 == 0:
+    k = a // 2
+else:
+    k = (a + 1) // 2
+if b % 2 == 0:
+    B = b // 2
+else:
+    B = (b + 1) // 2
+if c % 2 == 0:
+    C = c // 2
+else:
+    C = (c + 1) // 2
+print(k + B + C)
